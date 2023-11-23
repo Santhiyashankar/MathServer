@@ -110,7 +110,7 @@ def squareprism(request):
         print('request=',request)
         print('Base=',b)
         print('Height=',h)
-        area = int(b) * int(h)
+        area = 2*(int(b)^2)+4*int(b)*int(h)
         context['area'] = area
         context['b'] = b
         context['h'] = h
@@ -130,11 +130,14 @@ urlpatterns = [
 
 
 ## SERVER SIDE PROCESSING:
-![Alt text](<Screenshot (133).png>)
+![Alt text](<Screenshot (136).png>)
+
+
 
 
 # HOMEPAGE:
-![Alt text](<Screenshot (132).png>)
+![Alt text](<Screenshot (135).png>)
+
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
